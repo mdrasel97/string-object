@@ -143,9 +143,55 @@
 //     {name: 'mobile', category: 'electronics'}, 
 //     {name: 'jacket', category: 'clothing'}
 // ]
-// for(let i = 0; i < products.length; i++){
-//     let allProduct = products[i];
-//     console.log(allProduct);
+// let n = {
+//     ele: [],
+//     cloth: []
 // }
 
+// for(let i = 0; i < products.length; i++){
+//     let allProduct = products[i];
+//     if(allProduct.category === 'electronics'){
+//         n.ele.push(allProduct.name);
+//     }
+//     else if(allProduct.category === 'clothing'){
+//         n.cloth.push(allProduct.name);
+//     }
+// }
+// console.log(n);
 
+
+
+
+
+// task 4
+// let stn = "amar sonar bangla ami tomay valobashi"
+// console.log(stn.split(" "))
+
+// একটা for...in loop ব্যবহার করে object-এর সব key-value console-এ print করো।
+// let num ={
+//     name: 'rasel',
+//     age: 25,
+//     profeson: 'developer'
+// }
+// for(let i in num){
+//     let eliment = num[i];
+//     console.log(eliment + " " + num[eliment])
+// }
+let number ={
+    tata: 25,
+    toyota: 20, 
+    lemborgini: 80,
+    obj: ['rasel', 'alo', 'valo']
+}
+let key = Object.keys(number);
+let value = Object.values(number)
+console.log(key, value)
+
+let man = {
+    name: 'rasel',
+    age: 25, 
+    profeson: 'developer'
+}
+for(let key in man){
+    console.log(key + ':' + man[key])
+}

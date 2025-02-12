@@ -50,7 +50,28 @@
 // }
 
 
-let nam = 'amar sonar bangla ami tomay valo bashi';
-for(let i = 0; i <nam.length; i++){
-    console.log(nam[i]);
+// let nam = 'amar sonar bangla ami tomay valo bashi';
+// count = [];
+// for(let i = 0; i <nam.length; i++){
+//     if(nam[i] === 'v'){
+//         count.push(nam[i])
+//     }
+
+// }
+
+// console.log(count.length)
+
+let l = "Amar sonar bangla ami tomaY vaLo bakcjK ekdO";
+console.log(l)
+
+
+
+let dolar = '$249';
+let taka = dolar.split("");
+
+for(let i = 0; i < taka.length; i++ ){
+    let eliment = taka[i];
+    if(!isNaN(eliment) && eliment){
+        console.log(eliment)
+    }
 }
